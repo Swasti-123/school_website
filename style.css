@@ -1,0 +1,61 @@
+.lists {
+    float: left;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 40px;
+}
+body{
+    background-color: skyblue;
+    color: navy;
+    font-family: 'PT Serif', serif;
+}
+
+nav{
+    margin-left: 250px;
+    list-style: none;
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+nav a{
+    color: white;
+    
+}
+
+#image_school{
+    border: ridge black 5px;
+    width: 600px;
+    height: 450px;
+    border-radius: 50px;
+}
+
+#motto{
+    font-family: 'Lobster', cursive;
+}
+
+p{
+    width: 500px;
+}
+
+#my-carousel{
+    width:700px;
+    height: 410px;
+    border: ridge black 5px;
+}
+
+#my-carousel img{
+    height: 400px;
+}
+
+.lists:hover {
+
+    font-size: 40px;
+    background-color:aquamarine;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+}
+
